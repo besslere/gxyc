@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+.expList .sort li{
+    cursor: pointer;
+}
+.expList .sort li.sort1{
+    width: 50px;
+}
+.expList .sort li.active{
+    background: #F08200;
+    color: #fff;
+}
+.expList .resList .mt ul{
+    overflow: hidden;
+}
+.expList .resList .mt li.resList1{
+    width: 12%;
+}
+.expList .resList .mt li.resList2{
+    width: 12%;
+}
+.expList .resList .mt li.resList3{
+    width: 12%;
+}
+.expList .resList .mt li.resList4{
+    width: 10%;
+}
+.expList .resList .mt li.resList5{
+    width: 42%;
+}
+.expList .resList .mt li.resList6{
+    width: 10%;
+}
+.expList .sortPca{
+    height: 40px;
+}
+.expList .sortPca .pcaInfo{
+    padding-top: 8px;
+}
+.expList .resList .mc li{
+    padding: 16px 2px 16px 2px;
+    line-height: 48px;
+}
+.expList .resList .mc li.mcInfo1{
+    width: 12%;
+}
+.expList .resList .mc li.mcInfo2{
+    width: 12%;
+}
+.expList .resList .mc li.mcInfo3{
+    width: 12%;
+}
+.expList .resList .mc li.mcInfo4{
+    width: 10%;
+    color: #F08200;
+}
+.expList .resList .mc li.mcInfo5{
+    width: 42%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.expList .resList .mc li.mcInfo5 span{
+    color: #666;
+    font-weight: normal;
+}
+.expList .resList .mc li.mcInfo6{
+    width: 10%;
+}
+.expList .resList .mc li.mcInfo1 span img{
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+}
+.expList .resList .mc li.mcInfo6 span{
+    display: block;
+    background: #2B86E3;
+    color: #FFFFFF;
+    width: 46px;
+    height: 29px;
+    border-radius: 3px;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.expList .resList .mcLogis h3{
+    margin-bottom: 18px;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 36px;
+    font-size: 16px;
+    color: #1C81E9;
+}
+.expList .resList .mcLogis h3 span{
+    display: inline-block;
+    color: #1c81e5;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #1c81e5;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.expList .resList .mcFt{
+    position: relative;
+    overflow: hidden;
+}
+.expList .resList .mcFt ul{
+    margin: -9px 0 0 12px;
+    padding: 0 0 0 10px;
+    list-style: none;
+    line-height: 30px;
+    font-size: 12px;
+}
+.expList .resList .mcFt ul li{
+    border-left: 1px solid #d9d9d9;
+    line-height: 0;
+}
+.expList .resList .mcFt ul li .date{
+    font-weight: 700;
+    margin-right: 8px;
+    display: inline-block;
+    font: 12px 'arial';
+}
+.expList .resList .mcFt ul li .text{
+    width: 780px;
+    display: inline-block;
+    vertical-align: text-top;
+    line-height: 1.3em;
+    text-align: left;
+}
+.expList .resList .mcFt ul li:before{
+    content: '';
+    border: 3px solid #fff;
+    background: #d9d9d9;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    margin-left: -8px;
+    margin-right: 10px;
+}
+.expList .resList .mcFt ul li.latest:before{
+    background-color: #fe4300;
+    border-color: #f8e9e4;
+}
+.expList .resList .mcFt:before{
+    content: " ";
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 20px;
+    width: 10px;
+    height: 4px;
+}
+.expList .resList .mcFt .logisCom{
+    margin-top: 20px;
+    padding-right: 10px;
+    border-top: 1px solid #e8e8e8;
+    line-height: 28px;
+    color: #959595;
+    text-align: right;
+}

@@ -1,0 +1,1124 @@
+@charset "utf-8";
+
+/*通用样式*/
+body{
+    font: 12px 'Microsoft Yahei';
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+}
+dl,dt,dd,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,input{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    border: 0;
+}
+h1,h2,h3,h4{
+    font-size: 14px;
+}
+h5,h6{
+    font-size: 12px;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input{
+    margin: 0;
+    padding: 0;
+    font: 13px 'Microsoft yahei';
+}
+a{
+    color: #555;
+    text-decoration: none;
+}
+a:hover{
+    color: #555;
+    text-decoration: none;
+}
+a,input,button{
+    outline: none;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.hide{
+    display: none;
+}
+
+/*中间定宽*/
+.topBg,.navBar{
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*margin-top: 20px;*/
+}
+
+/*顶部信息*/
+.topCtn{
+    background: #000;
+}
+/*.topBg .topLogo{
+    margin-top: 16px;
+}*/
+.topBg .topLogo a{
+    display: inline-block;
+    height: 40px;
+}
+.topBg .topLogo a img{
+    width: 130px;
+    height: 33px;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+.topBg .topInfo{
+    font-size: 14px;
+    overflow: hidden;
+    height: 79px;
+}
+.topBg .topInfo ul li{
+    float: left;
+}
+.topBg .topInfo ul li a{
+    color: #2b86e3;
+}
+.topBg .topInfo li.line{
+    width: 1px;
+    height: 14px;
+    background: #ccc;
+    display: block;
+    margin: 20px 4px 0 4px;
+}
+.topBg .topInfo li.topTel{
+    position: relative;
+}
+.topBg .topInfo li s.topIcon{
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: -5px;
+    background: url("/img/icons/phone.png") no-repeat center center/cover;
+    width: 30px;
+    height: 30px;
+}
+.topBg .topInfo li.topTel span{
+    color: #F08200;
+    padding-left: 22px;
+    font-weight: bold;
+}
+.topBg .topInfo .topLg{
+    padding-left: 10px;
+}
+/*导航*/
+.nav{
+    background: #2B86E3;
+    height: 45px;
+    line-height: 45px;
+}
+.nav .navBar ul{
+    display: inline-block;
+}
+.nav .navBar ul li{
+    display: inline-block;
+    font-size: 16px;
+    width: 115px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+}
+.nav .navBar ul li a{
+    color: #fff;
+}
+.nav .navBar ul li a:hover{
+    color: #F08200;
+}
+/*Track*/
+.track .trkUl{
+    width: 1200px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+.track .trkUl ul{
+    overflow: hidden;
+}
+.track .trkUl ul li{
+    display: inline-block;
+    width: 29.1%;
+    background: #fff;
+    padding: 18px;
+    height: 300px;
+    padding-top: 50px;
+}
+.track .trkUl ul li.pc{
+    margin: 0 18px;
+}
+.track .trkUl ul li p{
+    width: 250px;
+    height: 95px;
+    margin:0 auto;
+    padding-bottom: 30px;
+}
+.track .trkUl ul li h1{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.track .trkUl ul li span{
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    font-size: 14px;
+}
+/*banner-cx*/
+.banSel{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tabs-vertical{
+    width: 398px;
+    max-width: 398px;
+    height: 107px;
+    position: absolute;
+    bottom: 20px;
+    z-index: 99;
+    font: bold 13px sans-serif;
+    text-align: left;
+    background: rgba(0,0,0,.12);
+    padding: 12px;
+    border-radius: 5px;
+}
+.banSel .tabs-vertical input{
+    outline: none;
+}
+.banSel .tabs-vertical .btns1{
+
+    margin-bottom: 15px;
+}
+.banSel .tabs-vertical .btns1 input:first-child{
+    border: 1px solid #fff;
+    width: 300px;
+    height: 50px;
+    padding-left: 8px;
+    color: #000;
+    border-radius: 3px;
+}
+.banSel .tabs-vertical .btns1 input:last-child{
+    width: 80px;
+    height: 52px;
+    padding: 8px;
+    font-size: 14px;
+    background: #f86539;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    letter-spacing: 2px;
+}
+.banSel .tabs-vertical .btns1 input:last-child:hover{
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+.banSel .tabs-vertical .btns2{
+    position: relative;
+}
+.banSel .tabs-vertical .btns2 i.i1{
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    background: url("/img/icons/reg.png") no-repeat center center/cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.banSel .tabs-vertical .btns2 i.i2{
+    position: absolute;
+    top: 10px;
+    left: 154px;
+    background: url("/img/icons/lg.png") no-repeat center center/cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.banSel .tabs-vertical .btns2 i.i3{
+    position: absolute;
+    top: 10px;
+    right: 93px;
+    background: url("/img/icons/id.png") no-repeat center center/cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.banSel .tabs-vertical .btns2 input{
+    width: 128px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    padding: 8px;
+    background: #f86539;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.banSel .tabs-vertical .btns2 input:hover{
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+.banSel .tabs-vertical .btns2 .btns2-1{
+    background: #00459c;
+    letter-spacing: 4px;
+    padding-left: 20px;
+}
+.banSel .tabs-vertical .btns2 .btns2-2{
+    background: #00aad6;
+    letter-spacing: 4px;
+    padding-left: 20px;
+}
+.banSel .tabs-vertical .btns2 .btns2-3{
+    background: #485f6b;
+    padding-left: 40px;
+}
+.tabs-vertical .tabList{
+    float: left;
+    margin: 0;
+    padding-left: 0;
+}
+.tabs-vertical .tabList li{
+    margin-right: -1px;
+    width: 120px;
+}
+.tabs-vertical .tabList li a{
+    font: 14px 'Microsoft Yahei';
+    display: block;
+    color: #fff;
+    border: 1px solid #6BABEB;
+    border-right: 0;
+    border-left: 4px solid #2B86E3;
+    border-bottom: 0;
+    padding: 16px 28px 16px 24px;
+    background: #2B86E3;
+    font-weight: normal;
+}
+.tabs-vertical .tabList li a.tab-active {
+    position: relative;
+    border-color: #dddddd;
+    background: #ffffff;
+    color: #2B86E3;
+    border-left: 4px solid #FF960D;
+}
+.tabs-vertical .tabList li:first-child a{
+    border-top: 0;
+}
+.tabs-vertical .tabs-content-placeholder{
+    overflow: hidden;
+    border-left: 1px solid #dddddd;
+    font-weight: normal;
+    background: #fff;
+    padding: 10px 0 10px 6px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tabs-vertical .tabs-content-placeholder ul li{
+    padding: 10px;
+}
+.tabs-vertical .tabs-content-placeholder ul li input{
+    width: 250px;
+    height: 35px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+    padding-left: 5px;
+    color: #999;
+    font-size: 13px;
+}
+.tabs-vertical .tabs-content-placeholder ul li label{
+    float: left;
+    padding-left: 4px;
+    line-height: 31px;
+}
+.tabs-vertical .tabs-content-placeholder ul li label span{
+    color: #A5A5A5;
+}
+.tabs-vertical .tabs-content-placeholder ul li span{
+    float: right;
+    padding-right: 4px;
+    line-height: 33px;
+}
+.tabs-vertical .tabs-content-placeholder ul li span a{
+    color: #A5A5A5;
+}
+.tabs-vertical .tabs-content-placeholder ul li .chk{
+    width: 12px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.tabs-vertical .tabs-content-placeholder ul li .tabBtn{
+    width: 257px;
+    color: #fff;
+    border: 0;
+    background: #ff9600;
+    cursor: pointer;
+    letter-spacing: 10px;
+    padding: 8px;
+    font: 16px 'Micorosoft Yahei';
+    font-weight: bold;
+    border-radius: 3px;
+}
+.tabs-vertical .tabs-content-placeholder ul li .tabLg{
+    margin: 20px 0;
+}
+.tabs-vertical .tabs-content-placeholder div{
+    display: none;
+}
+.tabs-vertical .tabs-content-placeholder div.tab-content-active{
+    display: block;
+    position: relative;
+}
+.banSel .tab-content-active textarea{
+    resize: none;
+    outline: none;
+    padding: 5px 0 0 5px;
+    line-height: 24px;
+    overflow-y: hidden;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    color: rgb(53, 114, 188);
+}
+
+/*物流追踪*/
+.track{
+    width: 100%;
+    background: #efefef;
+    overflow: hidden;
+}
+.logisTrack{
+    width: 1200px;
+    height: 80px;
+    margin: 25px auto;
+}
+.logisTrack .logisIcon{
+    width: 115px;
+    height: 80px;
+    background: #2b86e3;
+    color: #fff;
+    text-align: center;
+}
+.logisTrack .logisIcon img{
+    width: 30px;
+    margin-top: 15px;
+}
+.logisTrack .logisCtn textarea{
+    width: 557px;
+    height: 69px;
+    line-height: 24px;
+    resize: none;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    padding: 10px 10px 0 10px;
+    border-color: #ddd;
+    outline: none;
+    overflow-y: hidden;
+    margin-right: 10px;
+}
+.logisTrack .logisCtn  button{
+    width: 100px;
+    display: block;
+    outline: none;
+    background: #2B86E3;
+    border: none;
+    color: #fff;
+    height: 60px;
+    padding: 20px 0 24px 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+.logisTrack .logisBanner img{
+    width: 352px;
+    height: 80px;
+    margin-top: 2px;
+}
+/*产品介绍*/
+.proIntro{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.proIntro .proInfo{
+    width: 790px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 40px;
+}
+.proIntro .proInfo .proCtn{
+    background: #f6f6f6;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+.proIntro .proInfo .proCtn h3{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #000;
+    margin: 0 20px;
+    text-indent: 5px;
+    font-weight: normal;
+}
+.proIntro .proInfo .proCtn h3 img{
+    width: 20px;
+    vertical-align: middle;
+}
+.proIntro .proInfo .proCtn h3 a{
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+}
+.proIntro .proInfo .fix{
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+.proIntro .proInfo .fix li{
+    float: left;
+    margin-left: 47px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.proIntro .proInfo .fix li img{
+    width: 230px;
+    height: 180px;
+}
+.proIntro .proInfo .fix li .blur_shade{
+    background: url("../../../img/icons/blur.png") no-repeat;
+    position: absolute;
+    top: -600px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+}
+.proIntro .proInfo .fix li .blur_shade h4{
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+    padding-top: 45px;
+}
+.proIntro .proInfo .fix li .blur_shade .text{
+    background: url('../../../img/icons/line.jpg') no-repeat center top;
+    font-size: 14px;
+    color: #333;
+    margin-top: 8px;
+    padding: 8px 10px 0;
+}
+
+/*物流新闻*/
+.logisNews{
+    width: 386px;
+    height: 508px;
+    border: 1px solid #ddd;
+    background: #fff;
+    overflow: hidden;
+}
+.logisNews .newsTitle{
+    width: 386px;
+    border: 1px solid #fff;
+    background: #f6f6f6;
+    overflow: hidden;
+}
+.logisNews .newsTitle h3{
+    height: 40px;
+    line-height: 40px;
+    margin: 0 20px;
+    color: #000;
+    font-weight: normal;
+}
+.logisNews .newsTitle h3 img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.logisNews .newsTitle h3 a{
+    color: #666;
+    font-size: 12px;
+}
+.logisNews .newsInfo{
+    overflow: hidden;
+    padding: 4px 20px 0 20px;
+}
+.logisNews .newsInfo .newsCtn{
+    overflow: hidden;
+    margin-bottom: 12px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+/*重点在这里*/
+.logisNews .newsInfo .newsCtn h3{
+    background: url("../../../img/icons/dian.jpg") no-repeat left;
+    width: 220px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+    font-weight: normal;
+    padding-left: 10px;
+}
+.logisNews .newsInfo .newsCtn .news1{
+    color: #FF0000;
+}
+.logisNews .newsInfo .newsCtn span{
+    line-height: 19px;
+    color: #999;
+}
+/*合作伙伴*/
+.catLink{
+    width: 1200px;
+    margin: 0 auto 20px auto;
+}
+.catLink .links{
+    width: 640px;
+    height: 30px;
+    position: relative;
+}
+.catLink .links ul{
+    position: absolute;
+}
+.catLink .links ul li{
+    display: block;
+    cursor: pointer;
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    background-color: #2B86E3;
+    color: #fff;
+    float: left;
+    font: 400 14px/30px "Microsoft Yahei";
+    border-right-width: 1px;
+    border-right-color: #68A8E8;
+    border-right-style: solid;
+    margin-right: 10px;
+}
+.catLink .links ul li.hover{
+    background-color: #fff;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ddd;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-right-color: #ddd;
+    border-left-color: #ddd;
+    font-size: 16px;
+}
+.catLink .catImg{
+    width: 1198px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.catLink .catImg ul,.catLink .catInfo ul{
+    display: block;
+    overflow: hidden;
+}
+.catLink .catInfo ul{
+    padding: 22px 0 20px 28px;
+}
+.catLink .catImg ul{
+    padding: 5px 8px 0 8px;
+}
+.catLink .catInfo ul a{
+    padding-right: 20px;
+}
+.catLink .catImg ul li,.catLink .catInfo ul li{
+    margin: 10px 9px;
+    float: left;
+}
+.catLink .catInfo{
+    width: 1198px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+.catLink .catInfo ul a{
+    font-size: 14px;
+}
+
+/*各国家时间*/
+.time{
+    width: 100%;
+    background: #302E2F;
+}
+.time .tmInfo{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.time .tmInfo ul li{
+    display: inline-block;
+    color: #fff;
+    white-space: nowrap;
+    line-height: 36px;
+    margin: 0 30px;
+    text-align: left;
+}
+.time .tmInfo ul li img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.time .tmInfo ul li p{
+    margin-bottom: 0;
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.time .tmInfo ul li p span{
+    color: #fff;
+}
+.time .tmInfo ul{
+    padding: 20px 0;
+    text-align: center;
+}
+/*底部信息*/
+.btInfo{
+    width: 100%;
+    background: #fff;
+}
+.btInfo .btCtn{
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.btInfo .btCtn .btText{
+    width: 655px;
+    height: 130px;
+}
+.btInfo .btCtn .btText .btTitle{
+    width: 655px;
+    padding: 30px 0 15px 0;
+    font-size: 13px;
+    color: #585858;
+}
+.btInfo .btCtn .btText .btTitle a{
+    font-size: 14px;
+    color: #666;
+}
+.btInfo .btCtn .btText .btCont{
+    width: 655px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #515151;
+}
+.btInfo .btCtn .btImg{
+    width: 175px;
+    height: 100px;
+    margin-top: 25px;
+}
+.btInfo .btCtn .btImg ul li{
+    text-align: center;
+}
+.btInfo .btCtn .btImg ul li img{
+    width: 76px;
+    height: 76px;
+}
+.btInfo .btCopy{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #171918;
+    color: #999CA8;
+}
+
+/*横向广告开始*/
+.ads1,.ads2{
+    position: relative;
+    width: 100%;
+    background: #EFEFEF;
+}
+.ads1{
+    padding-top: 15px;
+}
+.ads2{
+    padding-bottom: 70px;
+}
+.ads1 .adFx,.ads2 .adFx{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*首页*/
+.phone {
+    float: right;
+    height: 100%
+}
+
+.phone li {
+    float: left;
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+.phone li a,.phone li span {
+    /*color: #363636;*/
+    color: #fff;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    padding: 3px 0
+}
+
+.phone li span.line {
+    margin: 0 2px
+}
+
+/*.phone li span.p {
+    width: 24px;
+    height: 24px;
+    top: 10px;
+    background: url("../../../img/wsm/dl.png") no-repeat center center/cover;
+    padding-left: 22px
+}*/
+
+/*
+.phone li span.u {
+    top: 10px;
+    background: url("../../../img/wsm/header-phoneicon.png") no-repeat 0 -24px;
+    padding-left: 22px
+}
+*/
+
+.phone li span.o {
+    top: 30px;
+    background: url("../../../img/wsm/header-phoneicon.png") no-repeat 0 -53px;
+    padding-left: 22px
+}
+
+.phone li span.c {
+    top: 15px;
+    cursor: pointer;
+    background: url("../../../img/wsm/header-phoneicon.png") no-repeat right -86px;
+    height: 30px;
+    display: block;
+    width: 35px
+}
+
+.phone li.over-red a:hover,.phone li.over-red span:hover {
+    color: #dc1e32
+}
+
+.phone li.language {
+    position: relative;
+    z-index: 9;
+    margin-left: 0
+}
+
+.phone li.language .movehidden {
+    width: 261px;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 73px;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 0;
+    transition: .25s .05s ease height
+}
+
+.phone li.language .movehidden div {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 15px;
+    transition: .3s ease opacity;
+    opacity: 0;
+    line-height: 14px
+}
+
+.phone li.language .movehidden div span,.phone li.language .movehidden div a {
+    color: #606263;
+    top: 0;
+    font-size: 12px
+}
+
+.phone li.language .movehidden div a:hover {
+    color: #e13d4e
+}
+
+.phone li.language:hover .movehidden {
+    height: auto;
+    padding: 20px 20px 5px;
+    border-top: 1px solid #e5e5e5
+}
+
+.phone li.language:hover .movehidden div {
+    opacity: 1
+}
+
+
+/*为什么选择我们*/
+.navs {
+    position: relative;
+    z-index: 2;
+}
+
+.navs li {
+    float: left;
+    list-style: none
+}
+
+.navs li a {
+    display: block;
+    width: 120px;
+    line-height: 77px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+
+.navs li a:hover {
+    border-bottom: 2px solid #fe9900;
+    color: #fe9900;
+}
+
+.faqList li {
+    padding: 15px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.faqList li h6 {
+    color: #666;
+    padding-left: 22px;
+    background: url("../../../img/wsm/faqs_q.png") no-repeat left center;
+    line-height: 30px;
+    height: 30px;
+    font-weight: normal;
+}
+
+.faqList li p {
+    padding-left: 22px;
+    background: url("../../../img/wsm/faqs_a.png") no-repeat left center;
+    color: #f08300;
+    font-size: 14px;
+}
+
+/*模态框*/
+.theme-popover-mask {
+    z-index: 9998;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    display:none
+}
+.theme-popover,.theme-pop {
+    z-index:9999;
+    position:fixed;
+    top:50%;
+    left:56%;
+    width:360px;
+    height:auto;
+    margin:-180px 0 0 -330px;
+    border-radius:5px;
+    border:solid 2px #666;
+    background-color:#fff;
+    display:none;
+    box-shadow: 0 0 10px #666;
+}
+.theme-pop{
+    top: 40%;
+    width: 410px;
+}
+.theme-poptit {
+    border-bottom:1px solid #ddd;
+    padding:12px;
+    position: relative;
+    font-size: 14px;
+}
+.theme-poptit .close {
+    float:right;
+    color:#999;
+    padding:5px;
+    margin:-2px -5px -5px;
+    font:bold 14px/14px simsun;
+    text-shadow:0 1px 0 #ddd
+}
+.theme-poptit .close:hover {
+    color:#444;
+}
+.theme-poptit h1{
+    font-weight: normal;
+    font-size: 16px;
+}
+.theme-popover .theme-box{
+    margin-top: 20px;
+}
+.theme-popover .theme-box input,
+.theme-pop .theme-box input{
+    display: inline-block;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.theme-popover .theme-box .theme-dl,
+.theme-pop .theme-box .theme-zc{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background: #3ea1e3;
+    cursor: pointer;
+}
+.theme-popover .theme-box .theme-dl{
+    padding: 10px 23px 25px 23px;
+    width: 270px;
+    margin: 30px 0 20px 44px;
+}
+.theme-pop .theme-box .theme-zc{
+    width: 180px;
+    padding: 20px 0;
+    line-height: 3px;
+    margin: 10px 0 20px 116px;
+}
+.theme-popover .theme-box label{
+    float: left;
+    width: 50px;
+    text-align: right;
+    line-height: 30px;
+    padding-left: 40px;
+}
+.theme-pop .theme-box label.zclbl{
+    float: left;
+    width: 96px;
+    text-align: right;
+    line-height: 30px;
+    padding-left: 25px;
+}
+.theme-popover .theme-box .theme-reg{
+    width: 110px;
+    height: 34px;
+    margin-bottom: 2px;
+}
+.theme-popover .theme-box img{
+    width: 80px;
+    height: 34px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.theme-popover .theme-box .login span{
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+    color: #ff0000;
+    width: 360px;
+}
+.theme-pop .theme-box .rgs span{
+    display: block;
+    width: 410px;
+    color: #ff0000;
+    text-align: center;
+}
+.theme-pop .username{
+    margin-top: 20px;
+}
+
+/*改进版1.0*/
+.topCtn .topInfo ul li{
+    position: relative;
+    height: 40px;
+}
+.topCtn .topInfo ul li span.p{
+    position: absolute;
+    width: 22px;
+    height: 15px;
+    background: url(../../../img/wsm/dh.png) no-repeat center center/cover;
+    top: 9px;
+    left: -6px;
+}
+.topCtn .topInfo ul li span.dh{
+    top: 10px;
+    left: 25px;
+}
+.topCtn .topInfo ul li.over-red{
+    margin-left: 50px;
+}
+.topCtn .topInfo ul li.over-red a{
+    color: #fff;
+}
+.gxyc{
+    overflow: hidden;
+}
+.gxyc .gxyc-top{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.gxyc .gxyc-top img {
+    width: 125px;
+    height: 100px;
+}
+.gxyc ul{
+    padding-left: 40px;
+}
+.gxyc ul li{
+    display: inline-block;
+    width: 112px;
+    margin: 28px 18px 5px 5px ;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.gxyc ul li:hover{
+    border-bottom: 2px solid #f18200;
+}

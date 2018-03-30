@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.comIntro .comInfo .newInfo h2{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    color: #2B86E3;
+}
+.comIntro .comInfo .newInfo .newData{
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    padding-bottom: 15px;
+    margin: 10px 0 20px 0;
+}
+.comIntro .comInfo .newInfo .newWz{
+    width: 900px;
+    margin: 0 auto;
+    line-height: 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 14px;
+    text-indent: 28px;
+}
+.comIntro .comInfo .newInfo .content p{
+    text-align: left;
+    text-indent: 0;
+}

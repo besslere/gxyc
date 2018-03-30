@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.prdInfo .prdPic{
+    width: 950px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    overflow: hidden;
+}
+.prdInfo .prdTxt{
+    width: 900px;
+    margin: 0 auto;
+}
+.prdInfo .prdTxt p{
+    line-height: 30px;
+}
+.prdInfo .prdTxt p span,
+.prdInfo .prdTxt .prdTd span,
+.prdInfo .prdTxt .prdQt span{
+    color: #009900;
+    font-weight: bold;
+}
+.prdInfo .prdTxt1,.prdInfo .prdTxt2{
+    padding-bottom: 20px;
+    border-bottom: 2px dotted #eee;
+}
+.prdInfo .prdTxt1,.prdInfo .prdTxt2,.prdInfo .prdTxt3{
+    margin-bottom: 20px;
+}
+.prdInfo .prdTxt .prdTd p,.prdInfo .prdTxt .prdQt p{
+    text-indent: 20px;
+}

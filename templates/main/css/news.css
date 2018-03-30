@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+.comIntro .gsNews .gsTit>span{
+    border-bottom: 1px solid #007ed6;
+    padding: 0 24px 13px 0;
+    color: #007ed6;
+}
+.gsNews .newInfo .newList{
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #ddd;
+    overflow: hidden;
+}
+.gsNews .newInfo .newList dt{
+    border: 3px solid #eee;
+}
+.gsNews .newInfo .newList dt img{
+    width: 235px;
+    height: 135px;
+    float: left;
+}
+.gsNews .newInfo .newList dd{
+    width: 680px;
+    float: right;
+    text-align: left;
+}
+.gsNews .newInfo .newList dd .tit{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+.gsNews .newInfo .newList dd .tit p{
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #0063B3;
+    font-size: 16px;
+    float: left;
+}
+.gsNews .newInfo .newList dd .tit b{
+    font-size: 14px;
+    font-weight: normal;
+    color: #9E9E9E;
+}
+.gsNews .newInfo .newList dd .des{
+    width: 680px;
+    max-width: 680px;
+    height: 69px;
+    font-size: 14px;
+    color: #555;
+    line-height: 170%;
+    overflow: hidden;
+    text-indent: 2em;
+    margin-bottom: 6px;
+}
+.gsNews .newInfo .newList dd .more{
+    display: inline-block;
+    zoom: 1;
+    width: 82px;
+    height: 24px;
+    border: 1px solid #0063B3;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color: #0063B3;
+}
+.gsNews .newPage .page{
+    overflow: hidden;
+    margin: 0 auto;
+    background: #fff;
+    width: 390px;
+}
+.gsNews .newPage .page li{
+    float: left;
+    border: 1px solid #ddd;
+    width: 60px;
+    padding: 0;
+    text-align: center;
+}
+.gsNews .newPage .page li.page1,
+.gsNews .newPage .page li.page2,
+.gsNews .newPage .page li.page3,
+.gsNews .newPage .page li.page4,
+.gsNews .newPage .page li.page5,
+.gsNews .newPage .page li.page6{
+    width: 40px;
+    border-right: 1px solid transparent;
+}
+.gsNews .newPage .page li.page2{
+    background: #2b86e3;
+}
+.gsNews .newPage .page li.page2 a{
+    color: #fff;
+}
+.gsNews .newPage .page li.pageNext{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.gsNews .newPage .page li a{
+    color: #000;
+    border-color: #ddd;
+}
+.gsNews .newPage .page li.pageIdx{
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px solid transparent;
+}
+.gsNews .newPage .page li.pageBf{
+    border-right: 1px solid transparent;
+}

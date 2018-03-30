@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*当前位置*/
+.location{
+    width: 100%;
+    min-height: 845px;
+    line-height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.location .lc{
+    width: 1200px;
+    margin: 0 auto;
+}
+.location .lc li b{
+    font-weight: normal;
+    margin: 0 5px;
+    font: 12px "Simsun";
+    color: #ccc;
+}
+/*公司介绍*/
+.location .comIntro{
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.location .comIntro .comText{
+    width: 200px;
+    height: auto;
+    background: #f8f8f8;
+    margin-right: 10px;
+}
+.location .comIntro .comText li{
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 0 10px 30px;
+    border-bottom: 1px dashed #eee;
+}
+.location .comIntro .comText li a{
+    display: block;
+}
+.location .comIntro .comText li a:hover{
+    color: #F86539;
+}
+.location .comIntro .comInfo{
+    width: 950px;
+    max-width: 950px;
+    overflow: hidden;
+    background: #fff;
+    padding: 10px 20px 10px 20px;
+}
+/*为什么选择我们页面-开始*/
+.location .comIntro .choose{
+    padding: 0;
+}
+/*为什么选择我们页面-结束*/
+.location .comIntro .comInfo .comImg1{
+    text-align: center;
+    max-width: 950px;
+}
+.location .comIntro .comInfo .comImg1 img{
+    max-height: 300px;
+    width: 930px;
+    max-width: 950px;
+}
+.location .comIntro .comInfo h3{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+.location .comIntro .comInfo .aboutInfo{
+    color: #555;
+    font-size: 14px;
+}
+.location .comIntro .comInfo .aboutInfo>p{
+    padding: 0 10px;
+}
+.location .comIntro .comInfo .aboutInfo .qy{
+    padding: 0 10px;
+}
+.location .comIntro .comInfo .aboutInfo .qy p{
+    font-size: 16px;
+    color: #2B86E3;
+    font-weight:bold;
+}
+.location .comIntro .comInfo .aboutInfo .qy h4 span{
+    font-weight: normal;
+}
+.location .comIntro .comInfo .aboutInfo .add h4.add1{
+    padding-left: 35px;
+}
+.location .comIntro .comInfo .aboutInfo .add h4.add2{
+    padding-left: 60px;
+}
+.location .comIntro .comInfo .aboutInfo .add h4.add3{
+    padding-left: 88px;
+}
+.location .comIntro .comInfo .aboutInfo .add h4.add4{
+    padding-left: 118px;
+}
+.location .comIntro .comInfo .aboutInfo .add h4.add5{
+    padding-left: 148px;
+}
+.location .comIntro .comInfo .aboutInfo .qy .map{
+    max-width: 500px;
+    max-height: 230px;
+}
+.location .comIntro .comInfo .aboutInfo .qy .map img{
+    width: 550px;
+    height: 230px;
+}
